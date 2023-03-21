@@ -1,0 +1,42 @@
+html{box-sizing: border-box}
+*{margin: 0; padding:0; box-sizing: inherit}
+
+body{background-color: #fbf9e4}
+
+#cabecera{height: 116px; background-image: url("../Imagenes/fondo.jpg"); text-align: center;}
+
+#logo{float: left; margin-left:1.25em}
+
+#menu{height:50px; background-color: #1a6900; overflow: hidden;}
+#menu ul{float:left; overflow: hidden; list-style: none;}
+#menu ul li{float: left; border-right: 1px solid black;}
+#menu ul li a{display: block; text-decoration: none; color: white; padding: 0 0.5em; line-height: 50px;}
+#menu span{float: right; color: white; line-height: 50px; margin-right: 1em;}
+#menu span a{text-decoration: none; color: white;}
+#enlace1{font-size: 1.5em; margin-left: 1.75em; font-weight: bold;}
+
+#contenido{padding-top: 2em; overflow:hidden;}
+
+#izquierda{width: 25%; float: left; margin-right: 2em; padding: 0 0.75em;}
+.blanco_izq{background-color: white; padding: 0.5em; border-radius: 5px; border: 1px solid #CCC; margin-bottom: 1em;}
+.blanco_izq h3{display:inline;}
+.blanco_izq img{vertical-align: -8px;}
+#izquierda form{border-top: 1px solid #CCC; margin: 0.5em 1.25em;}
+#izquierda form input{width: 100%; border-radius: 5px; padding: 0.5em; margin 0 0.5em;}
+#izquierda form input#recordar{width: 10%;}
+#izquierda form p{overflow: hidden;}
+#izquierda #entrar{width: 20%; float: left; font-size: 0.7em; margin-right: 1%; background-color: #33a92e; }
+#izquierda #olvidaste{width: 79%; float: left; font-size: 0.7em; background: color: #1a6900; }
+
+#derecha{overflow: hidden;}
+.blanco{height: 60px; border-radius: 5px; width: 45%; margin: 1em 0;}
+.blanco a{padding-left: 55px; line-height: 60px; display: block; text-decoration: none; color: black;}
+.blanco a:hover{color: white;}
+
+#admini{background: white url("../Imagenes/adminis.jpg") no-repeat 0 center}
+#admini:hover{background: #1a6900 url("../Imagenes/adminis_neg.jpg") no-repeat 0 center}
+
+#pie{height: 50px; background-color: #1a6900; margin: 0 0.75em;}
+
+#puntos{background-image: url("../Imagenes/tres_puntos.jpg"); height: 16px;}
+#derecha h2{margin: 0.75em 0.25em;}

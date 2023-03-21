@@ -1,0 +1,97 @@
+html{box-sizing:border-box}
+*{margin:0; padding:0; box-sizing: inherit}
+
+#contenedor{
+	width: 90%;
+	margin: 0 auto;
+	background-color: #f4f5f9;
+}
+
+#cabecera{
+	background-color: #1a2e35;
+	
+}
+
+#menu ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+#menu ul li{
+	width: 10%;
+	float: left;
+	
+}
+
+#menu ul li a{
+	display:block;
+	text-align: center;
+	color: #7b8e9c;
+	text-decoration: none;
+	padding: 0.25em;
+}
+
+.estrella{background: #1a2e35 url("../images/menu/puntos.png") no-repeat center 0;}
+.estrella:hover{background: #111f25 url("../images/menu/puntos_b.png") no-repeat center 0;}
+
+#lesionados{background: #1a2e35 url("../images/menu/lesionados.png") no-repeat center 0}
+#lesionados:hover{background: #111f25 url("../images/menu/lesionados_b.png") no-repeat center 0}
+
+
+#centro p{
+	text-align: center;
+	margin-top: 2%;
+	
+}
+
+#centro p img{width:30%}
+
+#hoy{
+	overflow:hidden;
+	width: 95%;
+	margin: 1% auto;
+}
+
+#hoy > div{
+	width: 48%;
+	background-color: white;
+	border-radius:5px;
+	float:left;
+	margin:1%;
+	padding:0.25em;
+}
+
+.subidones{height: 50px; padding:5px; border-bottom:1px solid #CCC}
+.subidones:hover{}
+.ultm_mas{border-bottom: none}
+.pos_verder{background-color: green; color: white; line-height: 40px; padding: 0 0.3em; border-radius: 10%;}
+.float_izq{float: left;}
+.float_der{float: right;}
+.subidones img{height:40px; padding: 0 0.5em}
+.subidones div{height: 40px}
+.pos_relative{position:relative;}
+.nombre{position:absolute; top:0;}
+.valor{position:absolute; bottom:0; left:0; font-size:0.9em; color:grey;}
+.rojo{color:red; margin-top:12px;}
+.verde{color:green; margin-top:12px;}
+.anchura{width:100%; padding: 0.5em;}
+
+
+#pie{text-align: center; background-color: black; color: #517985;}
+
+#pie div{display: inline-block; margin: 0.3em 0; text-align:left; line-height:1.5em;}
+#pie span{color:white}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

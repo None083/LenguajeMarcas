@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <title>Ejemplo de formulario</title>
+      <meta charset="UTF-8"/>
+      <link href="imagenes/favicon.png" rel="shortcut icon"/>
+   </head>
+   <body>
+   <h3 align="center">E N C U E S T A   I N F O R M Á T I C A</h3>
+   <form action="index.html" method="post" enctype="multipart/form-data">
+   <fieldset>
+   <legend>Datos personales</legend>
+     <p><label for="edad">Edad:</label>
+     <input type="text" name="edad" id="edad"/>
+     Sexo:
+     <input type="radio" name="sexo" value="hombre" id="hombre"/>
+     <label for="hombre">Hombre</label>
+     <input type="radio" name="sexo" value="mujer" id="mujer"/>
+     <label for="mujer">Mujer</label>
+     <label for="estudia">Estás estudiando:</label>
+     <input type="text" name="estudia" id="estudia"/>
+     </p>
+   </fieldset>
+   <fieldset>
+   <legend>Preguntas generales</legend>
+     ¿Tienes ordenador en tu casa?:
+     <input type="radio" name="ordenador" value="si" id="si"/>
+     <label for="si">Si</label>
+     <input type="radio" name="ordenador" value="no" id="no"/>
+     <label for="no">No</label><br/>
+     ¿Lo utilizas sólo tú o lo compartes con otras personas?
+     <input type="radio" name="compartes" value="propio" id="propio"/>
+     <label for="propio">Propio</label>
+     <input type="radio" name="compartes" value="compartido" id="compartido"/>
+     <label for="compartido">Compartido</label><br/>
+     En periodos de clase:
+     <ul>
+       <li><label for="dias">¿Cuántos días a la semana sueles encender el ordenador?<label/>
+       <select name="dias" id="dias">
+       <option value="1"></option>
+       <option value="2">2</option>
+       <option value="3">5</option>
+       <option value="4">7</option>
+       <select/>
+       </li>
+       <li><label for="horas">¿Cuántas horas diarias sueles gastar en el ordenador (cada día)?<label/>
+       <select name="horas" id="horas"></li>
+       <option value="1"></option>
+       <option value="2">Dos</option>
+       <option value="3">Cinco</option>
+       <option value="4">Ocho</option>
+       <select/>
+     </ul>
+     En períodos de vacaciones:
+     <ul>
+       <li><label for="dias">¿Cuántos días a la semana sueles encender el ordenador?<label/>
+       <select name="dias" value="clase" id="dias">
+       <option value="1"></option>
+       <option value="2">2</option>
+       <option value="3">5</option>
+       <option value="4">7</option>
+       <select/>
+       </li>
+       <li><label for="horas">¿Cuántas horas diarias sueles gastar en el ordenador (cada día)?<label/>
+       <select name="horas" value="vacaciones" id="horas"></li>
+       <option value="1"></option>
+       <option value="2">Dos</option>
+       <option value="3">Cinco</option>
+       <option value="4">Ocho</option>
+       <select/>
+     </ul>
+   </fieldset>
+   
+   
+   
+   
+   
+   </form>
+   </body>
+</html>   

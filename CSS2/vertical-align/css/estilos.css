@@ -1,0 +1,57 @@
+/*12 div width 30%, margin left top 2.5%, float, cada elemento con un id para los vertical-align*/
+
+html{
+box-sizing:border-box;
+height:100%;
+}
+
+body{
+height:100%;
+text-align:justify;
+}
+
+*{margin:0; padding:0; box-sizing: inherit;}
+
+.cuadrados{
+  border: 2px solid black;
+  width:30%;
+  margin-left: 2%;
+  margin-top: 2%;
+  float:left;
+
+}
+
+.palabra-der{
+  float:right;
+  position: relative;
+  top: 41px;
+  font-size: 20px;
+}
+
+img{
+  border:2px dotted red;
+}
+
+#top{vertical-align:top;}
+
+#middle{vertical-align:middle;}
+
+#baseline{vertical-align: baseline;}
+
+#bottom{vertical-align: bottom;}
+
+#medidamenosuno{vertical-align: -1em;}
+
+#sub{vertical-align: sub;}
+
+#texttop{vertical-align: text-top;}
+
+#textbottom{vertical-align: text-bottom;}
+
+#porcent20{vertical-align: 20%;}
+
+#super{vertical-align: super;}
+
+#medidauno{vertical-align: 1em;}
+
+#porcent80{vertical-align: 80%;}

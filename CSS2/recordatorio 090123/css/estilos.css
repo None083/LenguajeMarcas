@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0}
+h1, h3{margin: 1em}
+ul, ol, dl{margin: 1.5em; border: 1px solid black; width: 180px;}
+ul{list-style-type: decimal; list-style-image: url("../imagenes/yen.png"); list-style-position: inside}
+ol{list-style: disc url("../imagenes/yen.png") inside}
+dl{border:none}
+dl dd{list-style: none; border: 1px solid #7c7c}
+dl dd a{padding: 0.5em; display: block; text-decoration: none; text-align: center;}
+dl dd:hover{background-color: #ccc}

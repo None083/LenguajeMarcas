@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Formularios</title>
+  <meta charset="UTF-8"/>
+  <link href="direccion en tu pc" rel="shortcut icon"/>para poner in icono al nombre de la pagina
+</head>
+  <body>
+    <h1>Formularios</h1>
+    <form action="index.html" method="get" enctype="multipart/form-data"> o post(sobre todo si hay contraseña o imagen, porque el get te la chivatea/ el enctype es para que se envie la imagen
+      <fieldset>
+      <legend>Datos personales</legend>
+      <P>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" value="" placeholder="Introduzca su nombre" maxlenght="15" required size="40"/>
+      </P>
+      <p>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" name="clave" id="contraseña" placeholder="Introduzca su contraseña"/>
+      </P>
+      <p>
+        Sexo:<br/>
+        <input type="radio" name="sexo" value="hombre"/>Hombre<br/>
+        <input type="radio" name="sexo" value="mujer" checked/>Mujer
+      </P>
+      </fieldset>
+      <fieldset>
+      <legend>Otros datos</legend>
+      <p>
+        Puestos de trabajo buscados:
+        <input type="checkbox" name="direccion"/>Dirección</br>
+        <input type="checkbox" name="tecnico"/>Técnico</br>
+        <input type="checkbox" name="empleado"/>Empleado
+      </p>
+      <p>
+        Seleccione una imagen no minferior de 500KB:
+        <input type="file" name="foto" accept="image/*"/>
+      </p>
+      <p><input type="submit" name="btnEnviar" value="Enviar"/> <input type="reset" name="" value="Borrar campos"/>
+      </p>
+      <label for="descripcion">Descripcion del productos</label></br>
+      <textarea id="descripcion" name="descripcion" placeholder="Introduxca una descripcion" cols="40" rows="7"></textarea>
+      <p>
+      <label for="nacido">Nacido en:</label>
+      <select name="nacido" id="nacido" size="3" multiple>
+         <optgroup label="Málaga">
+         <option value="1">Estepona</option>
+         <option value="2">Málaga</option>
+         <option value="3" selected>Marbella</option>
+         </optgroup>         
+         <option value="4">Mi casa</option>
+         <option value="5">La tuya</option>
+      </select>
+      </p>
+      </fieldset>
+    
+    </form>
+  </body>
+</html>    

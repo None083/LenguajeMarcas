@@ -1,0 +1,6 @@
+*{margin:0; padding:0; box-sizing:border-box}
+
+#contenedor{height:80%; margin:5em auto; border:2px solid blue}
+#contenedor div{height:80%; border:2px solid blue; float:left}
+#contenedor div img{width:100%}
+#img{margin:0.5%}

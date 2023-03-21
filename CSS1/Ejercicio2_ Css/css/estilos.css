@@ -1,0 +1,15 @@
+/* No borrar la siguiente regla CSS porque es necesaria para ver los bordes de la tabla */
+
+table, tr, th, td {border:1px solid #000; border-collapse:collapse; padding:5px;}
+
+
+/* Colores usados: teal, red, orange, blue, purple, olive, fuchsia y green */
+
+h1 {color:teal}
+.rojo {color:red}
+.azul {color:blue}
+.amarillo {color:orange}
+.morado {color:purple}
+.green {color:green}
+.oliva {color:olive}
+.fucsia {color:fuchsia}

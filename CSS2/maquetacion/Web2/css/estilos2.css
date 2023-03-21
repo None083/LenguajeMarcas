@@ -1,0 +1,108 @@
+html{box-sizing: border-box; position: relative;}
+*{margin: 0; padding: 0; box-sizing: inherit;}
+
+body{background-image:url("../Imagenes/fondo.jpg"); background-size: cover;}
+
+#contenedor{
+  background-color: #175512;
+	width: 830px;
+	margin:0;
+}
+
+#cabecera{
+	background-image:url("../Imagenes/cabecera.jpg"); 
+	width:830px; 
+}
+
+#menu ul{
+	list-style: none;
+	overflow: hidden;
+}
+
+#menu{
+	height: 33px;
+	background-image:url("../Imagenes/fondo_menu.jpg")
+}
+
+#menu li{
+	float: left;
+}
+
+#menu li a{
+	display: block;
+	text-decoration: none;
+	color: white;
+	padding: 0.5em;
+	line-height: 33px;
+}
+
+#menu li a:hover{
+	background-color: #c6e2bc;
+	color: #175512;
+}
+
+#logueo{
+	background-color: #175512;
+	padding: 0.25em 0;
+	
+}
+
+#logueo form{
+	background-color: #0f340B;
+	overflow: hidden;
+	
+}
+
+#logueoIndividual{
+	width: 33.333%;
+	float: left;
+	padding: 0.5em;
+	overflow:hidden;
+}
+
+#logueo form a{
+	font-size: 12px;
+	color: white;
+}
+
+.mitad{
+	width: 40%;
+	float:left;
+	
+}
+
+#contenido{
+	overflow: hidden;
+	background-color: #175512;
+	padding: 1em 0.25em;
+}
+
+#izquierda{
+	width: 60%;
+	float: left;
+	margin-right: 2%;
+}
+
+#apuestas{
+	width: 38%;
+	float: left;
+	text-align: center;
+}
+
+#pie{
+	height: 66px;
+	background-image:url("../Imagenes/fondo_pie.jpg");
+	padding: 1em;
+	text-align: center;
+	font-size: 0.9em;
+
+}
+
+.amarillo{color: yellow}
+
+#pie a{
+	color: white;
+	line-height: 1.5em;
+}
+
+

@@ -1,0 +1,41 @@
+.exterior{
+width: 100px;
+height: 100px;
+margin: 0px auto;
+background-color: #3C0;
+}
+
+.interior{
+height: 50px;
+background-color: #9FF;
+}
+
+p{
+background-color: #FF0;
+text-align: center;
+}
+
+p.normal {
+background-color: #FFF;
+text-align: left;
+}
+
+#margen20 {margin:20px}
+
+.margen2510 {
+margin: 20px 10px;
+padding: 0px 10px;
+}
+
+.padding5 {padding:5px}
+
+.padding20 {padding: 20px}
+
+.menos20der {margin-right: -20px}
+
+.grande {height:200px}
+
+.mas20izq {margin-left: 20px}
+
+#margen10 {margin: 10px}
+#margen30 {margin: 30px}

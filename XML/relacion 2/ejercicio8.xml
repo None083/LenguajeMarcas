@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartelera>
+	<pelicula anio="" duracion="">
+		<titulo></titulo>
+		<titulo_original></titulo_original>
+		<nacionalidad>EE.UU</nacionalidad>
+		<director></director>
+		<reparto>
+			<actor></actor>
+		</reparto>
+		<sinopsis></sinopsis>
+		<genero></genero>
+		<web></web>
+		<clasificacion edad=""/>
+		<cartel></cartel>
+	</pelicula>
+	<pelicula anio="" duracion="">
+		<titulo></titulo>
+		<titulo_original></titulo_original>
+		<nacionalidad>España</nacionalidad>
+		<director></director>
+		<reparto>
+			<actor></actor>
+		</reparto>
+		<sinopsis></sinopsis>
+		<genero></genero>
+		<web></web>
+		<clasificacion edad=""/>
+		<cartel></cartel>
+	</pelicula>
+</cartelera>

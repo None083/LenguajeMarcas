@@ -1,0 +1,5 @@
+<!ELEMENT equipos (equipoLocal, equipoVisitante)>
+<!ELEMENT equipoLocal (nombre)>
+<!ELEMENT equipoVisitante (nombre)>
+<!ELEMENT nombre (#PCDATA)>
+<!ATTLIST nombre goles CDATA #REQUIRED>

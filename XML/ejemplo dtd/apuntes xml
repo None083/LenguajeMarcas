@@ -1,0 +1,5 @@
+?-puede estar o no
++-puede estar una vez o mas
+*-puede estar de 0 a muchos
+si no enlaza con el dtd se puede poner <!DOCTYPE loquesea [toda la mierda aqui]>, también se puede usar el corchete para meter cambios de los elementos del dtd
+

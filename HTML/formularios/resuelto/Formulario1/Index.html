@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <title>Ejemplo de formulario</title>
+      <meta charset="UTF-8"/>
+      <link href="imagenes/favicon.png" rel="shortcut icon"/>
+   </head>
+   <body>
+   <h3 align="center">EJEMPLO DE FORMULARIO</h3>
+ <hr/>
+   <h2>Activar y desactivar elementos</h2>
+   <p>Al seleccionar "Directo" se activan las subopciones. Al seleccionar
+     "Mediante prueba", se desecleccionan.</p>
+   <form action="index.html" method="post" enctype="multipart/form-data">
+   <fieldset>
+   <legend>Requisitos de acceso</legend>
+   <dl>
+        <dt><input type="radio" name="acceso" value="directo" id="directo"/>
+          <label for="directo">Directo<label/><dt/>
+        <dd>
+          <input type="radio" name="estudios" value="logse" id="logse"/>
+          <label for="logse">Bachillerato LOGSE<label/>
+          <label for="modalidad">Modalidad<label/>
+          <input type="text" name="modalidad" id="modalidad"/>
+        </dd>
+        <dd>
+          <input type="radio" name="estudios" value="experimental" id= "experimental"/>
+          <label for="experimental">Bachillerato experimental<label/>
+        <dd/>
+        <dd>
+          <input type="radio" name="estudios" value="cou" id= "cou"/>
+          <label for="cou">COU.<label/>
+          <label for="opcion">Opción<label/>
+          <input type="text" name="directo" id="opcion"/>
+        </dd>
+        <dd>
+          <input type="radio" name="estudios" value="fp2" id="fp2"/>
+          <label for="fp2">FP2<label/>
+        <dd/>
+        <dd>
+          <input type="radio" name="estudios" value="otros" id="otros"/>
+          <label for="otros">Otros<label/>
+          <label for="especifique">(especifique)<label/>
+          <input type="text" name="modalidad" id="especifique"/>
+        <dd/>
+        <dt><input type="radio" name="acceso" value="mediante" id="mediante"/>
+          <label for="mediante">Mediante prueba<label/><dt/>
+   </dl>
+   </fieldset>
+<hr/>
+    <h2>Modificar una lista en función de otra</h2>
+    <p>Al seleccionar un nivel, la lista de recursos ofrece las opciones posibles para ese nivel.<p/>
+      <fieldset>
+      <legend>Datos personales</legend>
+      <label for="nivel">Nivel:</label>
+      <select name="nivel" id="nivel">
+         <option value="1"></option>
+         <option value="2">Nivel 1</option>
+         <option value="3">Nivel 2</option>
+      </select>
+      <label for="curso"> - Curso:</label>
+      <select name="curso" id="curso">
+         <option value="1"></option>
+         <option value="2">Curso 1</option>
+         <option value="3">Curso 2</option>
+      </select>
+      </fieldset>
+<hr/>
+    <h2>Avisar de que algo no está relleno</h2>
+    <p>Al enviar el formulario, avisa de que no se ha rellenado algún campo.<p/>
+      <fieldset>
+      <legend>Datos personales</legend>
+      <ul>
+        <li><label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre"/></li>
+        <li>Nacido en:
+          <select name="nacido" id="nacido">
+            <option value="1"></option>
+            <option value="2">Estepona</option>
+            <option value="3">San Pedro</option>
+          <select/></li>
+        <li>
+          Sexo:
+          <input type="radio" name="sexo" value="hombre" id="hombre"/>
+          <label for="hombre">Hombre</label>
+          <input type="radio" name="sexo" value="mujer" id="mujer"/>
+          <label for="mujer">Mujer</label>
+        </li>
+      </ul>
+      <p align="right"><input type="reset" name="" value="Borrar todo"/>
+      <input type="submit" name="btnEnviar" value="Comprobar"/></p>
+      </fieldset>
+<hr/>
+
+   </form>
+   </body>
+</html>

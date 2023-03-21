@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datos [
+<!ELEMENT datos (persona+, departamentos+)>
+<!ELEMENT persona (nombre, direccion, edad, (hombre | mujer)?)>
+<!ELEMENT depatamentos EMPTY>
+<!ATTLIST	departamentos
+			nombre ID #REQUIRED
+			trabajador IDREF #REQUIRED>
+<!ATTLIST persona dni ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion EMPTY>
+<!ATTLIST direccion 
+			cp NMTOKEN #REQUIRED
+			valor CDATA #RQUIRED
+			provincia (Málaga | Almería) #IMPLIED
+			CIUDAD CDATA #IMPLIED
+			pais CDATA #FIXED "España">
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT hombre EMPTY>
+<!ELEMENT mujer EMPTY>
+]>
+<datos>
+	<persona dni="_09069834N">
+		<nombre>Miguel</nombre>
+		<direccion valor="Calle Teodoro Rojo, 14" cp="29680" provincia="Málaga" ciudad="Estepona" pais="España"/>
+		<edad>34</edad>
+		<hombre/>
+	</persona>
+	<persona dni="_92876543P">
+		<nombre>María</nombre>
+		<direccion valor="Plaza Almería, 14" cp="29611" provincia="Málaga" pais="España"/>
+		<edad>30</edad>
+		<mujer><mujer/>
+	</persona>
+	<departamentos nombre="informatica" departamento="_546546546"/>
+	<departamentos nombre="economica" departamento="_5572587257"/>	
+</datos>

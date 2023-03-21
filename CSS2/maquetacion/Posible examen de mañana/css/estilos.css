@@ -1,0 +1,161 @@
+body{
+    display: flex;
+     justify-content:center;
+    
+ }
+    
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ .contenedor{
+    width: 90%;
+    background-color: #f5f4f9;
+}
+.cabecera{
+    background-color: #1a2e35;
+    width: 100%;
+    
+ 
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+   
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+.nav ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.nav ul li:hover{
+    background-color: #111f25;
+}
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav ul li img:nth-child(2){
+    display: none;
+}
+
+.nav ul li:hover img:nth-child(2){
+    display: inherit;
+}
+
+.nav ul li:hover img:nth-child(1){
+    display:none;
+}
+
+
+
+
+.cuerpo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.datos{
+    margin: 1em 1.5em;
+    background-color: #7b8e9c;
+    padding: 1em 2em;
+}
+.datos form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    
+}
+.espacio{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.login{
+    margin-left: 100px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    padding: 0.5em 3em;
+    
+
+}
+.cuadro{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1em;
+    width: 100%;
+}
+
+.mc{
+    padding: 1em;
+    background-color: green;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 5px;
+}
+.minecraft{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 5px 0;
+}
+.verde{
+    color:green;
+}
+.rojo{
+    color:red;
+}
+
+.imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.pie{
+    margin-top: 1em;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: black;
+    color: #517985;
+}
+.pie span{
+    color:white;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    
+}

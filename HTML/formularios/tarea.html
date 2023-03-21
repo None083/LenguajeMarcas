@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Rellena tu CV</title>
+  <meta charset="UTF-8"/>
+  <link href="imagenes/donut.png" rel="shortcut icon"/>
+</head>
+<body>
+  <h3>Rellena tu CV</h3>
+  <form action="index.html" method="get" enctype="multipart/form-data">
+  <P>
+    <label for="nombre">Nombre:</label></br>
+    <input type="text" name="nombre" id="nombre" required size="16"/>
+  </P>
+  <P>
+    <label for="apellidos">Apellidos:</label></br>
+    <input type="text" name="apellidos" id="apellidos" required size="40"/>
+  </P>
+  <p>
+    <label for="contraseña">Contraseña:</label></br>
+    <input type="password" name="clave" id="contraseña" required size="16"/>
+  </P>
+  <p>
+    <label for="dni">DNI:</label></br>
+    <input type="text" name="dni" id="dni" required size="10"/>
+  </P>
+  <p>
+     Sexo:<br/>
+     <input type="radio" name="sexo" id="hombre" value="hombre" checked/><label for="hombre">Hombre</label><br/>
+     <input type="radio" name="sexo" id="mujer" value="mujer"/><label for="mujer">Mujer</label>
+  </P>
+  <p>
+     <label for="foto">Incluir mi foto:</label>
+     <input type="file" name="foto" id="foto" accept="image/*"/>
+  </p>
+  <p>
+     <input type="checkbox" name="suscribirse" id="suscribirse" checked/><label for="suscribirse">Suscribirme al boletín de novedades</label>
+  </p>
+  <p><input type="submit" name="btnEnviar" value="Guardar cambios"/> <input type="reset" name="" value="Borrar los datos introducidos"/>
+      </p>
+</body>
+</html>  

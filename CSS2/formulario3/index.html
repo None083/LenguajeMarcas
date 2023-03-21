@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Formulario datos personales. Ejercicios. Pághinas web HTML / XHTML y hojas de estilo CSS</title>
+  <meta charset="UTF=-8" />
+  <link href="css/estilos.css" rel="stylesheet"/>
+</head>
+
+<body>
+  <form action="index.html" method="post">
+    <h2>EJEMPLO DE DORMULARIO</h2>
+    <fieldset>
+      <legend>Datos personales</legend>
+      <div>
+        <p>
+          <label for="apellidos"><span>A</span>pellidos</label></br>
+          <input type="text" name="apellidos" id="apellidos"/>
+        </p>
+        <p>
+          <label for="nacido"><span>N</span>acido en</label></br>
+          <input type="text" name="nacido" id="nacido"/>
+        </p>
+        <p>
+          <label for="domicilio">Do<span>m</span>icilio:</label></br>
+          <select name="via" id="via">
+            <option value="1"></option>
+            <option value="2">Calle</option>
+            <option value="3">Calle</option>
+            <option value="4">Calle</option>
+          </select>
+          <input type="text" name="domicilio" id="domicilio"/>
+        </p>
+        <p>
+          <label for="localidad"><span>L</span>ocalidad:</label></br>
+          <input type="text" name="localidad" id="localidad"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <label for="nombre">N<span>o</span>mbre:</label></br>
+          <input type="text" name="nombre" id="nombre"/>
+        </p>
+        <p>
+          <label for="provincia">Provincia:</label></br>
+          <select name="provincia" id="provincia">
+            <option value="1">Valencia</option>
+            <option value="2">Málaga</option>
+            <option value="3">Madrid</option>
+            <option value="4">Pandora</option>
+          </select>
+        </p>
+        <div id="prov">
+        <p>
+          <label for="provincia2">Provincia:</label></br>
+          <select name="provincia2" id="provincia2">
+            <option value="1">Valencia</option>
+            <option value="2">Málaga</option>
+            <option value="3">Madrid</option>
+            <option value="4">Pandora</option>
+          </select>
+        </p>
+      </div>
+      </div>
+      <div>
+        <p>
+          <label for="dni"><span>D</span>NI:</label></br>
+          <input type="text" name="dni" id="dni"/>
+        </p>
+        <p>
+          <label for="fecha"><span>F</span>echa de nacimiento (dd/mm/aaaa):</label></br>
+          <input type="text" name="fecha" id="fecha"/>
+        </p>
+        <p>
+          <label for="cp"><span>C</span>odigo Postal:</label></br>
+          <input type="text" name="cp" id="cp"/>
+        </p>
+        <p>
+          <label for="telefono"><span>T</span>elefono:</label></br>
+          <input type="text" name="telefono" id="telefono"/>
+        </p>
+      </div>
+    </fieldset>
+</body>
+
+</html>

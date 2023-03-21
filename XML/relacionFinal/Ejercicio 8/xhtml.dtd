@@ -1,0 +1,11 @@
+<!ELEMENT html (head, body)>
+<!ATTLIST html xmlns CDATA #REQUIRED>
+<!ELEMENT head (meta, title)>
+<!ELEMENT meta (EMPTY)>
+<!ATTLIST meta http-equiv CDATA #REQUIRED
+            content CDATA #REUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT body (p)+>
+<!ATTLIST body bgcolor CDATA #REQUIRED>
+<!ELEMENT p (#PCDATA)>
+<!ATTLIST p align CDATA #IMPLIED>

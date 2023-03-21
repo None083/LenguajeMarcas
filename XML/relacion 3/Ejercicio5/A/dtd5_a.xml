@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos SYSTEM "dtd5_a.dtd">
+<equipos>
+    <equipoLocal>
+        <nombre>Nottingham Presa</nombre>
+        <goles>0</goles>
+    </equipoLocal>
+    <equipoVisitante>
+        <nombre>Inter de Mitente</nombre>
+        <goles>1</goles>
+    </equipoVisitante>
+</equipos>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura numero="999">
+	<empresa>
+		<nombre></nombre>
+		<direccion></direccion>
+		<poblacion cp="" ></poblacion>
+		<cif></cif>
+		<telefono></telefono>
+		<fax></fax>
+	</empresa>
+	<cliente>
+		<numero_cliente></numero_cliente>
+		<nombre></nombre>
+		<direccion></direccion>
+		<poblacion cp="" ></poblacion>
+		<provincia></provincia>
+	</cliente>
+	<datos_factura n_ped="731" iva="16" f_pago="efectivo" moneda="EURO">
+		<linea>
+			<ref></ref>
+			<descrip></descrip>
+			<cant></cant>
+			<precio></precio>
+			<iva></iva>
+			<importe></importe>
+		</linea>
+		<base>970.00</base>
+		<cuota_iva>155.20</cuota_iva>
+		<total>1125.20</total>
+	</datos_factura>
+</factura>

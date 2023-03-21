@@ -1,0 +1,10 @@
+#esp{
+background: none; 
+border: none; 
+color: blue; 
+text-decoration: underline;
+cursor: pointer;
+}
+input[type: "text"]{padding: 0.5em}
+input:focus{background: #CCC}
+label{}

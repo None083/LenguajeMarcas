@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Formulario datos personales. Ejercicios. Pághinas web HTML / XHTML y hojas de estilo CSS</title>
+  <meta charset="UTF=-8" />
+  <link href="css/clase.css" rel="stylesheet"/>
+</head>
+
+<body>
+  <form action="index.html" method="post">
+    <h2>EJEMPLO DE DORMULARIO</h2>
+    <fieldset>
+      <legend>Datos personales</legend>
+      <div class="ext">
+        <div>
+          <div class="izq">
+            <label for="apellidos"><span>A</span>pellidos</label>
+            <input type="text" name="apellidos" id="apellidos"/>
+	  </div>
+	  <div  class="der">
+	    <label for="nombre">N<span>o</span>mbre:</label>
+            <input type="text" name="nombre" id="nombre"/>
+          </div>
+        </div>
+        <div>
+          <div class="izq">
+            <label for="nacido"><span>N</span>acido en</label>
+            <input type="text" name="nacido" id="nacido"/>
+          </div>
+          <div class="der">
+            <label for="provincia">Provincia:</label>
+            <select name="provincia" id="provincia">
+              <option value="1">Valencia</option>
+              <option value="2">Málaga</option>
+              <option value="3">Madrid</option>
+              <option value="4">Pandora</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <div id="esp">
+            <label for="domi">Do<span>m</span>icilio:</label>
+            <select name="domi" id="domi">
+              <option value="1"></option>
+              <option value="2">Calle</option>
+              <option value="3">Calle</option>
+              <option value="4">Calle</option>
+            </select>
+            <input type="text" name="domi2" id="domi2"/>
+          </div>
+        </div>
+        <div>
+          <div class="izq">
+            <label for="localidad"><span>L</span>ocalidad:</label>
+            <input type="text" name="localidad" id="localidad"/>
+          </div>
+          <div class="der">
+            <label for="provincia2">Provincia:</label>
+            <select name="provincia2" id="provincia2">
+              <option value="1">Valencia</option>
+              <option value="2">Málaga</option>
+              <option value="3">Madrid</option>
+              <option value="4">Pandora</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="ext">
+        <div>
+          <label for="dni"><span>D</span>NI:</label>
+          <input type="text" name="dni" id="dni"/>
+        </div>
+        <div>
+          <label for="fecha"><span>F</span>echa de nacimiento (dd/mm/aaaa):</label>
+          <input type="text" name="fecha" id="fecha"/>
+        </div>
+        <div>
+          <label for="cp"><span>C</span>odigo Postal:</label>
+          <input type="text" name="cp" id="cp"/>
+        </div>
+        <div>
+          <label for="telefono"><span>T</span>elefono:</label>
+          <input type="text" name="telefono" id="telefono"/>
+        </div>
+      </div>
+        <p>
+          <input type="reset" name="borrar" value="Borrar todo"/>
+          <input type="submit" name="enviar" value="Enviar"/>
+        </p>
+    </fieldset>
+</body>
+
+</html>

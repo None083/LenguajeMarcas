@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webs>
+	<web>
+		<nombre>Alborán</nombre>
+		<descripcion>Web del IES Mar de Alborán.</descripcion>
+		<enlace>http://www.alboran.com/</enlace>
+	</web>
+	<web>
+		<nombre>Wikipedia</nombre>
+		<descripcion>La enciclopedia libre.</descripcion>
+		<enlace>http://www.wikipedia.org/</enlace>
+	</web>
+	<web>
+		<nombre>W3C</nombre>
+		<descripcion>World Wide Web Consortium.</descripcion>
+		<enlace>http://www.w3.org/</enlace>
+	</web>
+</webs>

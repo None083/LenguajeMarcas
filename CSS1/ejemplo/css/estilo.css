@@ -1,0 +1,11 @@
+div{
+width: 300px;
+height:300px;
+border: 1px solid black;
+margin: 5em auto;
+background-color: beige;
+background-image: url("../imagenes/favicon.png");
+background-repeat: no-repeat; /* repeat-x, repeat-y, */
+background-position: center 60%; /*right, left...*/
+/*background: beige url("../imagenes/favicon.png") no-repeat center 60%*/
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido fecha="19-5-2000">
+	<destinatario>Juan Delgado Marínez</destinatario>
+	<articulo cod="A2023">
+		<nombre>bicicleta</nombre>
+		<direccion>calle Barco 4, tercer piso, letra A</direccion>
+	</articulo>
+</pedido>

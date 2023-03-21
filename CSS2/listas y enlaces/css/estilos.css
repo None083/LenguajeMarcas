@@ -1,0 +1,13 @@
+#naranja{color:orange; background: url(../images/euro.png) no-repeat left center; padding-left:22px}
+#naranja:hover{color:lightgreen; background: url(../images/dolar.png) no-repeat left center;padding-left:22px}
+
+#verdeuno{color:lightgreen; background: url(../images/dolar.png) no-repeat left center;padding-left:22px}
+#verdeuno:hover{color:green; background: url(../images/yen.png) no-repeat left center;padding-left:22px}
+
+#azul{color:lightblue; background: url(../images/libra.png) no-repeat left center;padding-left:22px}
+#azul:hover{color: lightgreen; background: url(../images/dolar.png) no-repeat left center;padding-left:22px}
+
+#verdedos{color:green; background: url(../images/yen.png) no-repeat left center;padding-left:22px}
+#verdedos:hover{color: orange; background: url(../images/euro.png) no-repeat left center; padding-left:22px}
+
+img{vertical-align: middle;}

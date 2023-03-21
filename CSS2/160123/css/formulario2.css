@@ -1,0 +1,9 @@
+
+html{box-sizing: border-box;}
+*{margin:0; box-sizing: inherit;}
+
+form fieldset{
+float:left;
+width: 48%;
+margin: 1%;
+}

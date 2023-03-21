@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Libro SYSTEM "libro.dtd">
+<Libro id="">
+    <Titulo></Titulo>
+    <Contenido></Contenido>
+    <Copyright></Copyright>
+</Libro>

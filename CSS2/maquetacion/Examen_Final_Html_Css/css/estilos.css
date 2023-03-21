@@ -1,0 +1,157 @@
+html{box-sizing:border-box}
+*{margin:0; padding:0; box-sizing: inherit}
+body{width:100%; height: 100vh;}
+
+#contenedor{
+	width:90%;
+	margin-left:5%; 
+	position: relative; 
+	background-color: #f5f4f9; 
+	height: 100vh;
+  overflow: hidden;
+}
+
+#cabecera{
+	width: 100%;
+	overflow: hidden;
+}
+
+#logo{background-color:#1a2e35}
+
+#menu{
+	background-color:#1a2e35;
+	overflow: hidden;
+	position: relative;
+}
+#menu ul li{
+	float: left;
+	list-style: none;
+	width: 10%;
+	height: 60px;
+	display: block;
+}
+#menu ul li a{
+	text-decoration: none;
+	color: #7b8e9c;
+	text-align: center;
+	position: absolute;
+	padding-top:20px;
+	padding-left: 10px;
+	
+}
+
+#menu ul #puntos{
+background: url("../images/menu/puntos.png") no-repeat top;
+
+}
+#menu ul #puntos:hover{
+background: #111F25 url("../images/menu/puntos_b.png") no-repeat top;
+
+}
+#menu ul #lesionados{
+background: url("../images/menu/lesionados.png") no-repeat top;
+
+}
+#menu ul #lesionados:hover{
+background: #111F25 url("../images/menu/lesionados_b.png") no-repeat top;
+
+}
+#menu ul #dinero{
+background: url("../images/menu/dinero.png") no-repeat top;
+
+}
+#menu ul #dinero:hover{
+background: #111F25 url("../images/menu/dinero_b.png") no-repeat top;
+
+}
+#menu ul #jugadores{
+background: url("../images/menu/jugadores.png") no-repeat top;
+
+}
+#menu ul #jugadores:hover{
+background: #111F25 url("../images/menu/jugadores_b.png") no-repeat top;
+
+}
+#menu ul #liga{
+background: url("../images/menu/laliga.png") no-repeat top;
+
+}
+#menu ul #liga:hover{
+background: #111F25 url("../images/menu/laliga_b.png") no-repeat top;
+
+}
+#menu ul #mercado{
+background: url("../images/menu/mercado.png") no-repeat top;
+
+}
+#menu ul #mercado:hover{
+background: #111F25 url("../images/menu/mercado_b.png") no-repeat top;
+
+}
+#menu ul #apuestas{
+background: url("../images/menu/apuestas.png") no-repeat top;
+
+}
+#menu ul #apuestas:hover{
+background: #111F25 url("../images/menu/apuestas_b.png") no-repeat top;
+
+}
+#menu ul #dudas{
+background: url("../images/menu/dudas.png") no-repeat top;
+
+}
+#menu ul #dudas:hover{
+background: #111F25 url("../images/menu/dudas_b.png") no-repeat top;
+
+}
+#menu ul #buscar{
+background: url("../images/menu/buscar.png") no-repeat top;
+
+}
+#menu ul #buscar:hover{
+background: #111F25 url("../images/menu/buscar_b.png") no-repeat top;
+
+}
+
+#pub{padding-left:40%; padding-top: 10px;}
+
+#pie{background-color: black; margin-bottom: 0;}
+#pie a{
+	padding-left: 40%; 
+	padding-top:10px;
+	text-decoration: none;
+	color: #517985;
+	
+}
+#pie img{padding-left: 35%; padding-top:10px;}
+
+#centro{width: 100%; position: relative; overflow: hidden;}
+
+#centro .cuadrados{
+	padding:5px;
+	width: 47%;
+	float: left;
+	margin: 1.5%;
+	background-color: white;
+	border-radius: 3%;
+	position: relative;
+}
+.subidones{
+	border-bottom: 1px solid lightgrey;
+	overflow: hidden;
+
+}
+.bajones{
+	border-bottom: 1px solid lightgrey;
+	overflow: hidden;
+}
+.subidones span{float:left; padding: 5px;}
+.bajones span{float:left; padding: 5px;}
+.verde{color: green;}
+.rojo{color: red; }
+.mc{
+	background-color: green; 
+	border-radius: 2%; 
+	color:white; 
+	font-size: bold;
+}

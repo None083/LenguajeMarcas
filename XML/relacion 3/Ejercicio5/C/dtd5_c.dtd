@@ -1,0 +1,7 @@
+<!ELEMENT equipos (equipoLocal, equipoVisitante)>
+<!ELEMENT equipoLocal EMPTY>
+<!ATTLIST equipoLocal nombre CDATA #REQUIRED
+            goles CDATA #REQUIRED>
+<!ELEMENT equipoVisitante EMPTY>
+<!ATTLIST equipoVisitante nombre CDATA #REQUIRED
+            goles CDATA #REQUIRED>

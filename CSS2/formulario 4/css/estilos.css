@@ -1,0 +1,19 @@
+fieldset{border: 2px dashed lightgrey; margin: 1em}
+legend{
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    background-color: lightgrey;
+}
+h2{color: lightgrey;}
+
+span{
+    background-color: lightgrey;
+    padding: 0.2em;
+}
+
+div{
+    background-color: lightgrey;
+    margin: 0.3em;
+    padding: 0.2em;
+}

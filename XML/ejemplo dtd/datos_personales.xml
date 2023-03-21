@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE datos SYSTEM "datos_personales.dtd">
+<datos>
+	<persona>
+	UWU
+		<nombre>Noelia</nombre>
+		<direccion>Calle Dolores</direccion>
+		<edad>34</edad>
+	</persona>
+	<persona>
+		<nombre>Monty</nombre>
+		<direccion>Calle Dolores</direccion>
+		<edad>1</edad>
+	</persona>
+</datos>
+

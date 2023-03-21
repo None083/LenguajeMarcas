@@ -1,0 +1,43 @@
+html{box-sizing: border-box; height: 100%}
+*{padding: 0; margin:0; box-sizing: inherit}
+
+body{
+background: #CCC;
+text-align: center;
+font-family: Verdana;
+font-size: 12pt;
+}
+
+#contenedor{
+width: 90%;
+margin: 0 auto;
+}
+
+#cabecera{
+background-color: green;
+
+}
+
+#centro{
+width: 100%;
+margin: 1em 0;
+overflow: hidden;
+}
+
+#lateral{
+background-color: red;
+width: 300px;
+font-size: 10pt;
+float: left;
+margin-right: 1em;
+}
+
+#contenido{
+overflow: hidden;
+background-color: lightblue;
+}
+
+#pie{
+background-color: yellow;
+font-size: 8pt;
+}

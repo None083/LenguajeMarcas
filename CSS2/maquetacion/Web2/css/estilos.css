@@ -1,0 +1,134 @@
+/* logueo-#0f340B  registro-#c6e2bc  jugar-#33a92E  fondo-#175512 */
+
+html{box-sizing: border-box; position: relative;}
+*{margin: 0; padding: 0; box-sizing: inherit;}
+body{background-image:url("../Imagenes/fondo.jpg"); background-size: cover;}
+
+#contenedor{
+    width: 830px;
+    margin:auto;
+    background-color: #175512;
+    overflow: hidden;
+    position: relative;
+
+}
+
+#cabecera{background-image:url("../Imagenes/cabecera.jpg"); width:830px; }
+
+#menu{
+    background-image:url("../Imagenes/fondo_menu.jpg"); 
+    height: 33px;
+    width:100%;
+}
+
+#menu li{
+    float: left;
+    padding: 10px;
+    list-style: none;
+
+}
+
+#menu li a{
+    color: white;
+    text-decoration: none;
+}
+#logueo{
+    width: 830px;
+    background-color: rgb(10, 58, 10);
+    height: 60px;
+
+}
+
+.logueoIndividual{
+    float:left;
+    position:relative;
+    height:60px;
+    width:33%;
+}
+
+.mitad{
+    width: 49%;
+    float: left;
+
+}
+
+#logueo div a{
+    color:white;
+    font-size: 0.6em;
+}
+
+#logueo label{
+    color:white;
+    font-size: 0.9em;
+}
+
+#contenido{
+    width: 100%;
+    position: relative;
+
+}
+
+#izquierda{
+    width: 60%;
+    float: left;
+    margin-right: 2%;
+}
+
+#apuestas{
+    width:38%;
+    float:left
+}
+
+h4{
+    background-color: rgb(10, 58, 10);
+    padding:2px;
+    color: white;
+    border-top-right-radius: 8px;
+}
+
+#izquierda form{
+    background-color: #c6e2bc;
+    margin-bottom: 4em;
+}
+.registroIndividual{
+    padding: 2%;
+    position: relative;
+    height: 3.5em;
+    border-bottom: 1px solid rgb(10, 58, 10);
+}
+
+#botones{
+    background-color:  rgb(10, 58, 10);
+    height: 40px;
+    padding-top: 2%;
+}
+
+#boton1{
+    font-weight: bold;
+    padding: 0.5%;
+}
+
+#boton2{
+    font-weight: bold;
+    padding: 0.5%;
+    background-color: #33a92E;
+    border-color: #33a92E;
+    color:white;
+}
+
+#pie{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color:white;
+    background-image: url("../Imagenes/fondo_pie.jpg");
+    height:66px;
+    padding-top: 1%;
+    width: 100%;
+}
+#pie a{
+    color: white;
+    
+}
+
+.amarillo{color: yellow}

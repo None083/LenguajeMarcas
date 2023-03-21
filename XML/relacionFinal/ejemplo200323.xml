@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+<!ELEMENT personas (persona+, departamento+)>
+<!ELEMENT persona (nombre, direccion, fecha_nac, sueldo)>
+<!ATTLIST persona 
+        nacionalidad (española | europea) #IMPLIED
+        dni ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ATTLIST direccion cp NMTOKEN #IMPLIED>
+<!ELEMENT fecha_nac EMPTY>
+<!ATTLIST fecha_nac 
+        dia CDATA #REQUIRED   
+        mes CDATA #REQUIRED
+        anyo CDATA #REQUIRED>
+<!ELEMENT sueldo (#PCDATA)>
+<!ATTLIST sueldo moneda CDATA #FIXED "euro">
+<!ELEMENT departamento EMPTY>
+<!ATTLIST departamento
+        nombre (informatica | economia) #REQUIRED
+        trabajadores IDREFS #REQUIRED>
+]>
+
+<!-- 
+    CDATA:texto
+    NMTOKEN/S:puede empezar por numero, nombres de etiquetas 
+    IMPLIED:opcional 
+    REQUIRED:obligatorio
+    ID:debe empezar por letra o _, no se puede repetir, nombre de etiquetas
+    FIXED:si aparece indica que la palabra que tenga entre comillas al lado debe estar obligatoriamente
+    IDEREF/S:es una clave foranea, está en otro lado y la utilizamos para identificar
+-->
+
+<personas>
+    <persona nacionalidad="española" dni="_65655556L">
+        <nombre>Pepe</nombre>
+        <direccion cp="29680">Calle La Muerte, 5</direccion>
+        <fecha_nac dia="12" mes="12" anyo="2000"></fecha_nac>
+        <sueldo>2000</sueldo>
+    </persona>
+    <persona dni="_65464654P">
+        <nombre>María</nombre>
+        <direccion>Calle La Vida, 5</direccion>
+        <fecha_nac dia="02" mes="07" anyo="2002"></fecha_nac>
+        <sueldo moneda="euro">2000</sueldo>
+    </persona>
+    <departamento nombre="informatica" trabajadores="_65655556L _65464654P" />
+    <departamento nombre="economia" trabajadores="_65464654P" />
+</personas>

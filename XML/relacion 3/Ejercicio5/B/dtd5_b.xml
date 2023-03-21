@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos SYSTEM "dtd5_b.dtd">
+<equipos>
+    <equipoLocal>
+        <nombre goles="3">Vodka Juniors</nombre>
+    </equipoLocal>
+    <equipoVisitante>
+        <nombre goles="3">Sparta de Risa</nombre>
+    </equipoVisitante>
+</equipos>

@@ -1,0 +1,39 @@
+/* 	Tipo de letra usada: sans-serif.
+	Colores usados:#FDDBBD, #B0B0B0, #F2D0AB y #C9A568.
+	Tamaño de los cuadros: 13em x 13em
+*/
+html{
+box-sizing:border-box;
+height:100%
+}
+*{margin:0;padding:0;box-sizing:inherit}
+
+body{
+background-color:#FDDBBD; 
+text-align:justify;
+height:100%
+}
+
+h1{color: #B0B0B0;
+text-align: center;
+text-transform: uppercase;
+margin: 1em;
+}
+
+p{
+background-color:#F2D0AB;
+border: 2px dashed #C9A568;
+width: 30%;
+height: 30%;
+float:left;
+margin-left: 2.5%;
+margin-bottom: 2.5%;
+padding:0.5em;
+line-height:1.5em;
+}
+
+p:first-letter{
+color:#C9A568;
+font-size: 4em;
+float:left;
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oferta>
+	<cd>
+		<titulo>Still got the blues</titulo>
+		<artista>Gary Moore</artista>
+		<pais>UK</pais>
+		<compania>Virgin Records</compania>
+		<precio moneda="EURO">10.20</precio>
+		<aniopubli>1990</aniopubli>
+	</cd>
+	<cd>
+		<titulo></titulo>
+		<artista></artista>
+		<pais></pais>
+		<compania></compania>
+		<precio moneda="EURO"></precio>
+		<aniopubli></aniopubli>
+	</cd>
+	<cd>
+		<titulo></titulo>
+		<artista></artista>
+		<pais></pais>
+		<compania></compania>
+		<precio moneda="EURO"></precio>
+		<aniopubli></aniopubli>
+	</cd>
+	<cd>
+		<titulo></titulo>
+		<artista></artista>
+		<pais></pais>
+		<compania></compania>
+		<precio moneda="EURO"></precio>
+		<aniopubli></aniopubli>
+	</cd>
+	<cd>
+		<titulo></titulo>
+		<artista></artista>
+		<pais></pais>
+		<compania></compania>
+		<precio moneda="EURO"></precio>
+		<aniopubli></aniopubli>
+	</cd>
+	<cd>
+		<titulo></titulo>
+		<artista></artista>
+		<pais></pais>
+		<compania></compania>
+		<precio moneda="EURO"></precio>
+		<aniopubli></aniopubli>
+	</cd>
+</oferta>

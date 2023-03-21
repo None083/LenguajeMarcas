@@ -1,0 +1,54 @@
+html{box-sizing: border-box;}
+*{margin:0; box-sizing: inherit;}
+
+#apellidos{
+    width: 18em;
+}
+#domicilio{
+    width: 26em;
+    position: absolute;
+}
+#nombre{
+    width: 10em;
+}
+#dni{
+    width: 8em;
+}
+#fecha{
+    width: 8em;
+}
+#cp{
+    width: 5em;
+}
+#telefono{
+    width: 7em;
+}
+
+div{
+    float: left;
+    margin:1%;
+}
+#prov{
+    position: relative;
+    top: 2.6em;
+}
+#via{
+    margin-right: 3px;
+}
+form fieldset{
+    background-color:rgb(237, 237, 237);
+    margin: 0 2em;
+}
+h2{
+    background-color:rgb(237, 237, 237);
+    text-align: center;
+    margin: 0.5em;
+}
+legend{
+    border: 3px solid rgb(237, 237, 237);
+    background-color: white;
+}
+span{
+    color:rgb(200, 0, 0);
+    text-decoration: underline;
+}

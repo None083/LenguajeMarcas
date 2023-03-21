@@ -1,0 +1,8 @@
+*{border:2px solid black}
+
+img{border:2px solid black}
+
+#img2{position:relative;top:75px} /*relative:se coloca estaticamente, 
+-absolute:se levanta y deja pasar lo que tenga después */
+
+#img3{position:fixed;right:30px}

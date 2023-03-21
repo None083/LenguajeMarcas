@@ -1,0 +1,26 @@
+html{box-sizing: border-box}
+*{margin: 0; padding: 0; box-sizing: inherit}
+
+body form fieldset{padding: 0.5em}
+
+.ext{ 
+width: 49%; 
+float: left;
+margin: 0 0.5%;
+}
+
+.ext > div{overflow: hidden}
+.ext div div{float: left}
+.izq{width:60%}
+.der{width:40%}
+#esp{width:100%}
+#esp select, #esp input{float: left}
+label{display: block; margin-top: 0.5em}
+p{text-align: right}
+#domi{width:15%}
+#domi2{width:85%}
+#apellidos{width: 90%}
+#nombre{width: 90%}
+#dni{width: 40%}
+#fecha{width: 40%}
+span{color: red}

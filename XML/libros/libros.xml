@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+	<libro>
+		<isbn></isbn>
+		<titulo></titulo>
+		<precio moneda="EURO"></precio>
+		<fec_publi></fec_publi>
+		<autores>
+			<autor>
+				<nombre></nombre>
+				<apellidos></apellidos>
+				<email></email>
+			</autor>
+			<editorial>
+				<nombre></nombre>
+				<oficina></oficina>
+				<web></web>
+			</editorial>
+			
+		</autores>
+	</libro>
+</biblioteca>

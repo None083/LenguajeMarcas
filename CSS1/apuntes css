@@ -1,0 +1,21 @@
+*{margin:0} para quitar el margen a todo
+{padding:0} oculta la lista
+p {text-align:center;color:#ff80d7}
+h2 {color:#3e2879}
+em {color:#79cec9}
+p * em //todos los em que esten dentro de algo
+
+span se usa como etiqueta sin utilidad, para señalar cosas que quieras
+
+<span class="destacado"></span>
+.destacado {font-weight:bold}
+
+#esp{color: #87ce79 ;font-size:32px}
+
+p.nombreclase este se aplica a todos los p que tengan la clase esta
+p .nombreclase y este a todo lo que tenga esta clase que esté dentro de un p
+
+para medidas se usa:
+em letra   2 -
+px layout 32 estas cantidades son el doble
+% layout 200 -

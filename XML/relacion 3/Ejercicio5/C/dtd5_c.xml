@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE equipos SYSTEM "dtd5_c.dtd">
+<equipos>
+    <equipoLocal nombre="Water de Munich>" goles="4" />
+    <equipoVisitante nombre="Esteaua es del grifo" goles="2" />
+</equipos>

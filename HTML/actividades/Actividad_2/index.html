@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Actividad 2</title>
+    <meta charset="UTF-8"/>
+  </head>
+  <body>
+  <h1>Clase de Repaso</h1>
+  <p> Esto es un elemento de <del>Bloque</del></p>
+  <em>Y esto es un elemento de línea</em>&nbsp;&nbsp;
+  <p>Otro párrafo</p>
+  <strong>Esto va a <ins>aparecer</ins> en negrita</strong>
+  <blockquote>
+    Esto es un elemento <code>blockquote</code>, que es de bloque y no de línea.<br/>No me gusta el <acronym title="Cascade Style Sheet">CSS</acronyme> y sí el <acronym title="Hypertext Markup Language">HTML</acronym>
+  </blockquote>
+  <p>La solución es:</p>
+  <pre>
+  /*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
+ */
+
+package apuntes;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author noeliap
+ */
+public class Deporte {
+    
+    //solicitar al usuario los minutos que está corriendo forrest gump
+    //y el prograa me tiene que dicir la distancia recorrida suponiendo
+    //que corre a 8km/h
+
+    public static void main(String[] args) {
+        
+        
+       //variables y constantes
+       // X/60*8 = distancia recorrida
+       final int VELOCIDAD = 8; // km/h
+       final double MINUTOS_HORA = 60.0;
+       int minutosCorriendo;
+       double distanciaRecorrida;
+       
+       
+       //entrada de datos por teclado
+       //se usa para leer por teclado
+       //a partir de la entrada estandar del sistema
+       Scanner teclado = new Scanner(System.in);
+
+       
+        System.out.println("Introduce las minutos que está corriendo: ");
+        
+        //usando teclado y el metodo nextInt vamos a leer un numero entero
+        
+        minutosCorriendo = teclado.nextInt();
+        
+        System.out.println("valor de minutosCorriendo: " + minutosCorriendo);
+       
+       
+       
+             
+       
+       //proceso
+       
+       distanciaRecorrida = (minutosCorriendo / MINUTOS_HORA * VELOCIDAD);
+       
+       
+       //mostrar resultados
+       
+        System.out.println("ha recorrido: " + distanciaRecorrida + " km");
+        
+        
+        //hacer el ej3, y el 1 de algoritmos secuenciales (nuevo paquete secuencialesnoelia y dentro los ej)
+       
+        
+        
+        
+    }
+}
+  </pre>
+  <p> El código anterior ha sido puesto con la etiqueta &lt;pre>...&lt;/pre></p>
+  </body>		
+</html>

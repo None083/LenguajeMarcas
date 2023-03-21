@@ -1,0 +1,19 @@
+html{box-sizing: border-box}
+*{margin: 0; padding: 0; box-sizing: inherit; border-collapse: collapse;}
+ul{margin: 1.5em;  width: 180px; border: 1px solid black}
+li{
+list-style: none;
+border-bottom: 1px solid black;
+background-color: #ccc;
+}
+ul li a{
+padding: 0.5em;
+padding-left: 22px;
+display: block;
+text-decoration: none;
+color: black;
+background: url(../images/flecha_inactiva.png) no-repeat left center;margin-left:5px;
+}
+ul li a:hover{background: url(../images/flecha_activa.png) no-repeat left center;
+  margin-left:5px;}
+li:hover {background-color: grey}

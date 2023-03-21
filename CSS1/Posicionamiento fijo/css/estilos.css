@@ -1,0 +1,62 @@
+h1{
+  text-align: right;
+  background-color: lightblue;
+  text-transform: uppercase;
+}
+
+#principal{
+  width:60%;
+  position: absolute;
+  left:20%;
+}
+
+#Mark, #Bertrand, #Winston, #Fran, #Albert{
+  border: 3px solid black;
+  position: relative;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+h2{
+  margin-top: 0;
+  padding-left: 5px;
+  background-color: lightblue;
+}
+
+p{
+  padding: 0 15px;
+}
+
+#css{
+  position: fixed;
+  bottom:5;
+  right:5;
+}
+
+td{
+  margin:0;
+  padding: 0 5px;
+}
+
+.azul{background-color: blue}
+.verde{background-color: green}
+.rojo{background-color: red}
+.amarillo{background-color: yellow}
+
+#indice{
+  width:20%;
+  position: fixed;
+  list-style: none;
+  left:-2%;
+  margin:0;
+}
+
+a{
+  color:black
+}
+
+address{
+  position: fixed;
+  bottom:0;
+  left:0;
+}

@@ -1,0 +1,50 @@
+html{box-sizing: border-box}
+*{margin: 0; padding: 0; box-sizing: inherit;}
+
+h1{
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  background: url(../imagenes/fondo1.jpg);
+  height: 120px;
+  line-height:120px
+}
+
+#menu{
+  height: 30px;
+  background: url(../imagenes/boton-menu.jpg);
+  width: 100%;
+}
+
+#menu ul{
+  width:40%; margin:0 auto; 
+  list-style: none;
+  overflow: hidden;
+}
+
+#menu ul li{
+  width: 25%;
+  float: left;
+}
+
+#menu ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+  line-height: 30px;
+}
+
+#menu ul li:hover{
+  color: black;
+  list-style: none;
+  background: url(../imagenes/boton-menu2.jpg);
+}
+a{
+ background: url(../imagenes/flecha_inactiva.png) no-repeat 0.5em center;
+}
+
+a:hover{
+  background: url(../imagenes/flecha_activa.png) no-repeat 0.5em center;
+}

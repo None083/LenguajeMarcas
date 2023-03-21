@@ -1,0 +1,37 @@
+body {
+text-align: justify;
+background-color: #DBFFDB;
+border: 10px solid #B8EAAD;
+margin-bottom: 60px;
+font-family: monospace;
+}
+
+h1 {
+text-align: center;
+background-color: #B8EAAD;
+border: 6px solid #F1FFF1;
+margin: 20px 30px;
+}
+
+h2 {
+margin: 20px 30px 0px 30px;
+padding: 0px 25px;
+background-color: #FCD4F2;
+border: 9px solid #B89BB1;
+border-bottom: none;
+}
+
+p {
+border: 6px solid #B89BB1;
+border-top: none;
+margin: 0px 30px 20px 30px;
+padding: 15px;
+}
+
+#cita {
+text-align: right;
+border: 0px;
+border-top: 3px dashed;
+padding: 0px;
+margin: 0px 30px;
+}

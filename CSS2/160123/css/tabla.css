@@ -1,0 +1,4 @@
+/*table tr th{border: 1px border black}
+table{border-collapse: collapse}*/
+
+table{border-spacing:2em; caption-side: bottom; empty-cells: hide}

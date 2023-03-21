@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+      <title>Formulario</title>
+      <meta charset="UTF-8"/>
+      <link href="imagenes/favicon.png" rel="shortcut icon"/>
+   </head>
+   <body>
+    <h2>Formulario de entrada</h2>
+    <form method="post" action="index.html">
+    <p><label for id="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre"/></p>
+    <p><label for id="apellidos">Apellidos:</label>
+    <input type="text" name="apellidos" id="apellidos"/></p>
+    <table>
+     <tr>
+      <td colspan="155">
+      Edad:<br/>
+      <input type="radio" name="edad" value="e020" id="e020"/>
+      <label for="e020">0-20</label><br/>
+      <input type="radio" name="edad" value="e2040" checked id="e2040"/>
+      <label for="e2040">20-40</label><br/>
+      <input type="radio" name="edad" value="e4060" id="e4060"/>
+      <label for="e4060">40-60</label><br/>
+      <input type="radio" name="edad" value="e60100" id="e60100"/>
+      <label for="e60100">60-100</label>
+      </td>
+      <td>¿Cómo nos conociste?</br>
+      <input type="checkbox" name="amigo" id="amigo"/>
+      <label for="amigo">A través de un amigo.</label><br/>
+      <input type="checkbox" name="buscador" id="buscador"/>
+      <label for="buscador">A través de un buscador.</label><br/>
+      <input type="checkbox" name="red" id="red"/>
+      <label for="red">Navegando por la red.</label><br/>
+      <input type="checkbox" name="otros" id="otros"/>
+      <label for="otros">Otros.</label>
+      </td>
+     </tr>
+     <tr>
+       <td><label for="opinion">Opinión sobre nuestra web</label></br>
+         <textarea id="opinion" name="opinion" placeholder="Escriba aquí su opinión..." cols="45" rows="7"></textarea><br/>
+       <br/></td>
+       <td></td>
+     </tr>
+     <tr>
+       <td><label for="navegas"> ¿Cuánto navegas por internet? (Señala la opción que más se acerque)</label><br/>
+       <select name="navegas" id="navegas" size="2">
+       <option value="1">2 horas al día.</option>
+       <option value="2">4 horas al día.</option>
+       <option value="3">Más de 6 horas al día.</option>
+     </select></td>
+     <td></td>
+     </tr>
+    </table>
+    <p><input type="submit" name="incio" value="Ir a inicio"/>
+    <input type="reset" name="borrar" value="Borrar formulario"/></p>
+  </form>
+   </body>
+</html>
