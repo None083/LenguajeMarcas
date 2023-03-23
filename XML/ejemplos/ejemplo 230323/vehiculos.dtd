@@ -1,0 +1,13 @@
+<!ELEMENT vehiculos (coche, camion, tren, avion, moto)>
+<!ENTITY % r_m "ruedas, motor">
+<!ELEMENT coche (%r_m;, puertas)>
+<!ELEMENT camion (%r_m;, puertas, carga)>
+<!ELEMENT tren (%r_m;, vagones)>
+<!ELEMENT avion (%r_m;, capacidad)>
+<!ELEMENT moto (%r_m;)>
+<!ELEMENT ruedas (#PCDATA)>
+<!ELEMENT motor (#PCDATA)>
+<!ELEMENT puertas (#PCDATA)>
+<!ELEMENT carga (#PCDATA)>
+<!ELEMENT vagones (#PCDATA)>
+<!ELEMENT capacidad (#PCDATA)>

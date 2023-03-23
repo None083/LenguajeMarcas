@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE antidotos [
+<!ELEMENT antidotos (antidoto+)>
+<!ELEMENT antidoto ((nombre, cura) | (cura, nombre))>
+<!ATTLIST antidoto num ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cura (#PCDATA)>
+<!ENTITY adn SYSTEM "ácido desoxirribonucleico">
+]>
+<antidotos>
+    <antidoto num="n_1">
+        <nombre>Malaria</nombre>
+        <cura>una maravilla de &adn;</cura>
+    </antidoto>
+</antidotos>

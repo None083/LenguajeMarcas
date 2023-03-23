@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vehiculos SYSTEM "vehiculos.dtd">
+<vehiculos>
+    <coche>
+        <ruedas>4</ruedas>
+        <motor>gssfgds</motor>
+        <puertas>4</puertas>
+    </coche>
+    <camion>
+        <ruedas>rge</ruedas>
+        <motor>gre</motor>
+        <puertas>rg</puertas>
+        <carga>sg</carga>
+    </camion>
+    <tren>
+        <ruedas>egre</ruedas>
+        <motor>rge</motor>
+        <vagones>sgrr</vagones>
+    </tren>
+    <avion>
+        <ruedas>rg</ruedas>
+        <motor>srg</motor>
+        <capacidad>regg</capacidad>
+    </avion>
+    <moto>
+        <ruedas>gerwg</ruedas>
+        <motor>regg</motor>
+    </moto>
+</vehiculos>
