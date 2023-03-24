@@ -1,0 +1,10 @@
+<!ELEMENT libreta_de_direcciones (contacto*)>
+<!ELEMENT contacto (nombre, apellidos, telefono, direccion)>
+<!ELEMENT nombre (#PCDATA)* >
+<!ELEMENT apellidos (#PCDATA)* >
+<!ELEMENT telefono (#PCDATA)* >
+<!ELEMENT direccion (#PCDATA)* >
+<!ATTLIST direccion 
+            calle CDATA #IMPLIED
+            numero CDATA #IMPLIED
+            datos CDATA #IMPLIED>

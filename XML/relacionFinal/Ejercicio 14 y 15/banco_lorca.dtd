@@ -1,0 +1,25 @@
+<!ELEMENT banco (sucursales, prestamos)>
+<!ELEMENT sucursales (sucursal+)>
+<!ELEMENT sucursal (cuentas)>
+<!ATTLIST sucursal codigo ID #REQUIRED>
+<!ELEMENT cuentas (cuenta+)>
+<!ELEMENT cuenta (clientes, domiciliaciones)>
+<!ATTLIST cuenta codigo ID #REQUIRED>
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT cliente EMPTY>
+<!ATTLIST cliente 
+            nif CDATA #REQUIRED
+            privilegios CDATA #REQUIRED>
+<!ELEMENT domiciliaciones (domiciliacion*)>
+<!ELEMENT domiciliacion (concepto, importe)>
+<!ATTLIST domiciliacion id CDATA #REQUIRED>
+<!ELEMENT concepto (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+<!ELEMENT prestamos (prestamo+)>
+<!ELEMENT prestamo EMPTY>
+<!ATTLIST prestamo 
+            id CDATA #REQUIRED
+            nif CDATA #REQUIRED
+            importe CDATA #REQUIRED
+            interes CDATA #REQUIRED
+            plazo CDATA #REQUIRED>

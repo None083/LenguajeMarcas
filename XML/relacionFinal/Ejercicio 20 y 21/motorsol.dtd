@@ -1,0 +1,13 @@
+<!ELEMENT motores (motor+)>
+<!ELEMENT motor (seccion+, responsable, trabajador+)>
+<!ATTLIST motor tipo CDATA #REQUIRED>
+<!ELEMENT seccion (pieza+)>
+<!ATTLIST seccion id ID #REQUIRED>
+<!ELEMENT pieza EMPTY>
+<!ATTLIST pieza id ID #REQUIRED>
+<!ELEMENT responsable EMPTY>
+<!ATTLIST responsable id ID #REQUIRED
+             empleado CDATA #REQUIRED>
+<!ELEMENT trabajador EMPTY>
+<!ATTLIST trabajador id ID #REQUIRED
+             empleado CDATA #REQUIRED>

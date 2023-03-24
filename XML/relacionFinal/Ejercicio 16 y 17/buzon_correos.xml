@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE buzon_correos SYSTEM "buzon_correos.dtd">
+<buzon_correos>
+    <carta tipo="">
+        <remitente></remitente>
+        <destinatario></destinatario>
+        <contenido></contenido>
+    </carta>
+    <paquete tamanio="" peso="">
+        <remitente></remitente>
+        <destinatario></destinatario>
+        <contenido></contenido>
+    </paquete>
+</buzon_correos>

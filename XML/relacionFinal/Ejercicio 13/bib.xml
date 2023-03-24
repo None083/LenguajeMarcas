@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE bib [
+<!ELEMENT bib (libro|revista)+>
+<!ELEMENT libro EMPTY>
+<!ELEMENT revista EMPTY>
+<!ATTLIST libro titulo CDATA #REQUIRED>
+<!ATTLIST libro editorial CDATA #REQUIRED>
+<!ATTLIST libro autor CDATA #REQUIRED>
+<!ATTLIST revista titulo CDATA #REQUIRED>
+<!ATTLIST revista editorial CDATA #REQUIRED>
+<!ATTLIST revista numero CDATA #REQUIRED>
+]>
+<bib>
+    <libro titulo="Monty el perro" editorial="Mi Casa" autor="Noelia P" />
+    <revista titulo="Hola" editorial="No sé" numero="08" />
+</bib>

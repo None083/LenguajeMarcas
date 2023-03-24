@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE banco SYSTEM "banco_lorca.dtd">
+<banco>
+  <sucursales>
+    <sucursal codigo="S1">
+      <cuentas>
+        <cuenta codigo="C1">
+          <clientes>
+            <cliente nif="11111111A" privilegios="basico"/>
+            <cliente nif="22222222B" privilegios="avanzado"/>
+          </clientes>
+          <domiciliaciones>
+            <domiciliacion id="1">
+              <concepto>Alquiler</concepto>
+              <importe>800</importe>
+            </domiciliacion>
+          </domiciliaciones>
+        </cuenta>
+        <cuenta codigo="C2">
+          <clientes>
+            <cliente nif="22222222B" privilegios="basico"/>
+            <cliente nif="33333333C" privilegios="avanzado"/>
+          </clientes>
+          <domiciliaciones>
+            <domiciliacion id="2">
+              <concepto>Agua</concepto>
+              <importe>83</importe>
+            </domiciliacion>
+            <domiciliacion id="3">
+              <concepto>Revista hola</concepto>
+              <importe>5</importe>
+            </domiciliacion>
+          </domiciliaciones>
+        </cuenta>
+      </cuentas>
+    </sucursal>
+    <sucursal codigo="S2">
+      <cuentas>
+        <cuenta codigo="C3">
+          <clientes>
+            <cliente nif="11111111A" privilegios="basico"/>
+            <cliente nif="44444444D" privilegios="avanzado"/>
+          </clientes>
+          <domiciliaciones>
+            <domiciliacion id="4">
+              <concepto>Telefono</concepto>
+              <importe>7</importe>
+            </domiciliacion>
+          </domiciliaciones>
+        </cuenta>
+        <cuenta codigo="C4">
+          <clientes>
+            <cliente nif="55555555E" privilegios="basico"/>
+          </clientes>
+          <domiciliaciones/>
+        </cuenta>
+      </cuentas>
+    </sucursal>
+  </sucursales>
+  <prestamos>
+    <prestamo id="1" nif="11111111A" importe="10000.00" interes="0.05" plazo="36"/>
+    <prestamo id="2" nif="22222222B" importe="5000.00" interes="0.08" plazo="24"/>
+    <prestamo id="3" nif="33333333C" importe="20000.00" interes="0.04" plazo="60"/>
+    <prestamo id="4" nif="44444444D" importe="15000.00" interes="0.07" plazo="48"/>
+  </prestamos>
+</banco>

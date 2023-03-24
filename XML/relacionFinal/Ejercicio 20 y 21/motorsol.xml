@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE motores SYSTEM "motorsol.dtd">
+<motores>
+  <motor tipo="gasolina">
+    <seccion id="s1">
+      <pieza id="p1"/>
+      <pieza id="p2"/>
+      <pieza id="p3"/>
+    </seccion>
+    <seccion id="s2">
+      <pieza id="p4"/>
+      <pieza id="p5"/>
+    </seccion>
+    <responsable id="r1" empleado="Maria"/>
+    <trabajador id="t1" empleado="Monty"/>
+    <trabajador id="t2" empleado="Noelia"/>
+  </motor>
+  <motor tipo="diesel">
+    <seccion id="s3">
+      <pieza id="p6"/>
+      <pieza id="p7"/>
+      <pieza id="p8"/>
+    </seccion>
+    <seccion id="s4">
+      <pieza id="p9"/>
+      <pieza id="p10"/>
+    </seccion>
+    <responsable id="r2" empleado="Carlos"/>
+    <trabajador id="t3" empleado="Pepe"/>
+    <trabajador id="t4" empleado="Alicia"/>
+  </motor>
+</motores>

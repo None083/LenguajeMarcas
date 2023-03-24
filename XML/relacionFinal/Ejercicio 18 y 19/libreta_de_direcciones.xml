@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE libreta_de_direcciones SYSTEM "libreta_de_direcciones.dtd">
+<libreta_de_direcciones>
+    <contacto>
+        <nombre></nombre>
+        <apellidos></apellidos>
+        <telefono></telefono>
+        <direccion calle="" numero="" datos="" />
+    </contacto>
+</libreta_de_direcciones>

@@ -1,0 +1,10 @@
+<!ELEMENT buzon_correos (carta, paquete)*>
+<!ENTITY % r_d_c "remitente, destinatario, contenido">
+<!ELEMENT carta (%r_d_c;)>
+<!ATTLIST carta tipo CDATA #IMPLIED>
+<!ELEMENT paquete (%r_d_c;)>
+<!ATTLIST paquete tamanio CDATA #IMPLIED>
+<!ATTLIST paquete peso CDATA #IMPLIED>
+<!ELEMENT remitente EMPTY>
+<!ELEMENT destinatario EMPTY>
+<!ELEMENT contenido EMPTY>
