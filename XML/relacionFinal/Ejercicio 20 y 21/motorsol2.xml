@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE fabrica [
+<!ELEMENT fabrica (piezas, motores, secciones, empleados)>
+<!ELEMENT piezas (pieza+)>
+<!ELEMENT pieza EMPTY>
+<!ATTLIST pieza 
+            id ID #REQUIRED
+            compuesta IDREFS #IMPLIED>
+<!ELEMENT motores (motor+)>
+<!ELEMENT motor (trabajador+)>
+<!ATTLIST motor 
+            id ID #REQUIRED
+            responsables IDREF #REQUIRED
+            piezas IDREFS #REQUIRED>
+<!ELEMENT tabajador EMPTY>
+<!ATTLIST trabajador 
+            cod IDREF #REQUIRED
+            familiares IDREFS #IMPLIED>
+<!ELEMENT secciones (seccion+)>
+<!ELEMENT seccion EMPTY>
+<!ATTLIST seccion 
+            cod ID #REQUIRED
+            realiza IDREFS #REQUIRED>
+<!ELEMENT empleados (empleado+)>
+<!ELEMENT empleado EMPTY>
+<!ATTLIST empleado nif ID #REQUIRED>
+]>
+<fabrica>
+    <piezas>
+        <pieza id="p1" compuesta="p2 p3"/>
+        <pieza id="p2"/>
+        <pieza id="p3"/>
+        <pieza id="p4"/>
+    </piezas>
+    <motores>
+        <motor id="m1" responsables="_23123129p" piezas="p1 p4">
+            <trabajador cod="_23123129p"/>
+            <trabajador cod="_54464556l" familiares="_45758787p _23176457p"/>
+        </motor>
+        <motor id="m2" responsables="_54464556l" piezas="p3">
+            <trabajador cod="_23123129p"/>
+            <trabajador cod="_54464556l" familiares="_45758787p"/>
+        </motor>
+        <motor id="m3" responsables="_23774747p">
+            <trabajador cod="_23774747p"/>
+            <trabajador cod="_34674312p" familiares="_23434312p"/>
+        </motor>
+    </motores>
+    <secciones>
+        <seccion cod="s1" realiza="m1 m2"/>
+        <seccion cod="s2" realiza="m3"/>
+    </secciones>
+    <empleados>
+        <empleado nif="_23123129p"/>
+        <empleado nif="_54464556l"/>
+        <empleado nif="_45758787p"/>
+        <empleado nif="_23176457p"/>
+        <empleado nif="_23774747p"/>
+        <empleado nif="_34674312p"/>
+        <empleado nif="_23434312p"/>
+    </empleados>
+</fabrica>

@@ -1,15 +1,7 @@
 <!ELEMENT factura (datos_empresa, datos_cliente, datos_factura)>
 <!ATTLIST factura n_fac ID #REQUIRED>
-<!ENTITY % p_p "poblacion, provincia">
-<!ELEMENT datos_empresa (nombre, dir, %p_p;, cif, telefono, fax)>
-<!ELEMENT datos_cliente (nombre, dir_env, %p_p;)>
-<!ATTLIST datos_cliente n_cli ID #REQUIRED>
-<!ELEMENT datos_factura (fecha, linea+, base, cuota_iva, total)>
-<!ATTLIST datos_factura 
-            n_ped ID #REQUIRED
-            iva CDATA #REQUIRED
-            f_pago CDATA #REQUIRED
-            moneda CDATA #REQUIRED>
+<!ENTITY % datos "nombre, (dir | dir_env), poblacion, provincia">
+<!ELEMENT datos_empresa (%datos;, cif, telefono, fax)>
 <!ELEMENT nombre (#PCDATA)>
 <!ELEMENT dir (#PCDATA)>
 <!ELEMENT dir_env (#PCDATA)>
@@ -17,6 +9,14 @@
 <!ATTLIST poblacion cod_postal CDATA #REQUIRED>
 <!ELEMENT provincia (#PCDATA)>
 <!ELEMENT cif (#PCDATA)>
+<!ELEMENT datos_cliente (%datos;)>
+<!ATTLIST datos_cliente n_cli ID #REQUIRED>
+<!ELEMENT datos_factura (fecha, linea+, base, cuota_iva, total)>
+<!ATTLIST datos_factura 
+            n_ped ID #REQUIRED
+            iva (16) #REQUIRED
+            f_pago (efectivo | tarjeta) #REQUIRED
+            moneda CDATA #FIXED "euro">
 <!ELEMENT telefono (#PCDATA)>
 <!ELEMENT fax (#PCDATA)>
 <!ELEMENT fecha (#PCDATA)>

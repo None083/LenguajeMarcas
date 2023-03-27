@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE banco [
+<!ELEMENT banco ((clientes, sucursales) | (sucursales, clientes))>
+<!ELEMENT clientes (cliente+)>
+<!ELEMENT cliente ((prestamo*, cuenta+) | (cuenta+, prestamo*))>
+<!ATTLIST cliente nif ID #REQUIRED>
+<!ELEMENT prestamo EMPTY>
+<!ATTLIST prestamo num ID #REQUIRED>
+<!ELEMENT cuenta EMPTY>
+<!ATTLIST cuenta cod IDREF #REQUIRED
+            permiso (titular | autorizado) #REQUIRED>
+<!ELEMENT sucursales (sucursal+)>
+<!ELEMENT sucursal (cuenta_corriente+)>
+<!ELEMENT cuenta_corriente (domiciliacion*)>
+<!ATTLIST cuenta_corriente id ID #REQUIRED>
+<!ELEMENT domiciliacion EMPTY>
+<!ATTLIST domiciliacion num ID #REQUIRED>
+]>
+<banco>
+    <clientes>
+        <cliente nif="_11111111P" >
+            <prestamo num="_2551"/>
+            <cuenta cod="_22" permiso="titular"/>
+            <cuenta cod="_11" permiso="autorizado"/>
+        </cliente>
+        <cliente nif="_22222222G" >
+            <cuenta cod="_11" permiso="titular"/>
+        </cliente>
+        <cliente nif="_33333333N">
+            <cuenta cod="_33" permiso="titular"/>
+            <prestamo num="_2552"/>
+        </cliente>
+    </clientes>
+    <sucursales>
+        <sucursal>
+            <cuenta_corriente id="_11">
+                <domiciliacion num="_231"/>
+            </cuenta_corriente>
+            <cuenta_corriente id="_33">
+            </cuenta_corriente>
+        </sucursal>
+        <sucursal>
+            <cuenta_corriente id="_22">
+            </cuenta_corriente>
+        </sucursal>
+    </sucursales>
+</banco>
