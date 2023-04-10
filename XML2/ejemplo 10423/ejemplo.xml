@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nota2.xsd">
+    <nota>
+        <a>Juan</a>
+        <de>Susana</de>
+        <cabecera>Recordatorio</cabecera>
+        <cuerpo>¡Recuerda que tenemos reunion!</cuerpo>
+    </nota>
+    <nota>
+        <a>Juan</a>
+        <de>Susana</de>
+        <cabecera>Recordatorio</cabecera>
+        <cuerpo>¡Recuerda que tenemos reunion!</cuerpo>
+        <fin>Hola Juan</fin>
+    </nota>
+</notas>
