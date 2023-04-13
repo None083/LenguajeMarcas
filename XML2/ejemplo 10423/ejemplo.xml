@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <notas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="nota2.xsd">
-    <nota>
+    <nota id="nota_1">
         <a>Juan</a>
         <de>Susana</de>
         <cabecera>Recordatorio</cabecera>
         <cuerpo>¡Recuerda que tenemos reunion!</cuerpo>
+        <edad anyo="40">1982</edad>
+        <enviado/>
     </nota>
-    <nota>
+    <nota id="nota_2">
         <a>Juan</a>
         <de>Susana</de>
         <cabecera>Recordatorio</cabecera>
         <cuerpo>¡Recuerda que tenemos reunion!</cuerpo>
         <fin>Hola Juan</fin>
+        <edad anyo="40">1981</edad>
     </nota>
 </notas>
