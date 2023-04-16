@@ -3,7 +3,7 @@
 <!ELEMENT datos (persona+, departamentos+)>
 <!ELEMENT persona (nombre, direccion, edad, (hombre | mujer)?)>
 <!ELEMENT depatamentos EMPTY>
-<!ATTLIST	departamentos
+<!ATTLIST departamentos
 			nombre ID #REQUIRED
 			trabajador IDREF #REQUIRED>
 <!ATTLIST persona dni ID #REQUIRED>
@@ -32,6 +32,6 @@
 		<edad>30</edad>
 		<mujer><mujer/>
 	</persona>
-	<departamentos nombre="informatica" departamento="_546546546"/>
-	<departamentos nombre="economica" departamento="_5572587257"/>	
+	<departamentos nombre="informatica" trabajador="_546546546"/>
+	<departamentos nombre="economica" trabajador="_5572587257"/>	
 </datos>
