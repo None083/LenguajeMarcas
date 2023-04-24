@@ -23,7 +23,7 @@
             <xs:element name="web" type="xs:string" minOccurs="0" />
             <xs:element name="cartel" type="xs:string" minOccurs="0" />
         </xs:sequence>
-        <xs:attribute name="codigo" type="xs:positiveInteger" use="required" />
+        <xs:attribute name="codigo" type="xs:ID" use="required" />
         <xs:attribute name="duracion" type="xs:positiveInteger" use="required" />
         <xs:attribute name="anyo" type="xs:positiveInteger" use="optional" default="2003" />
     </xs:complexType>
