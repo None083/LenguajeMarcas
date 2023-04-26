@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<discos tienda="Discos 3000">
+<discos tienda="Discos 3000" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="discos_tienda.xsd">
     <grupo nom="muse">
         <nombre>MUSE</nombre>
         <miembro>Matthew Bellamy</miembro>
