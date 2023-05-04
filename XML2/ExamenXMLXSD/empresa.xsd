@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="empresa" type="tipoEmpresa" />
+
+    <xs:complexType name="tipoEmpresa">
+        <xs:sequence>
+            <xs:element name="datos_empresa" type="tipoDatosEmpresa" />
+            <xs:element name="clientes" type="tipoClientes" />
+            <xs:element name="facturas" type="tipoFacturas" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoDatosEmpresa">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" />
+            <xs:element name="dir" type="xs:string" />
+            <xs:element name="poblacion" type="tipoPoblacion" />
+            <xs:element name="provincia" type="xs:string" />
+            <xs:element name="cif" type="xs:string" />
+        </xs:sequence>
+        <xs:attribute name="telefono" type="xs:positiveInteger" use="required" fixed="917776688" />
+        <xs:attribute name="fax" type="xs:positiveInteger" use="required" fixed="917776699"  />
+    </xs:complexType>
+
+    <xs:complexType name="tipoClientes">
+        <xs:sequence>
+            <xs:element name="cliente" type="tipoCliente" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoCliente">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string" />
+            <xs:choice>
+                <xs:element name="dir" type="xs:string" />
+                <xs:element name="dir_env" type="xs:string" />
+            </xs:choice>
+            <xs:element name="poblacion" type="tipoPoblacion" />
+            <xs:element name="provincia" type="xs:string" />
+            <xs:element name="telefono" type="tipoTelefono" minOccurs="0" />
+        </xs:sequence>
+        <xs:attribute name="n_cli" type="xs:ID" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="tipoPoblacion" mixed="true">
+        <xs:attribute name="cod_postal" type="xs:string" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="tipoTelefono">
+        <xs:attribute name="num" type="xs:positiveInteger" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="tipoFacturas">
+        <xs:sequence>
+            <xs:element name="factura" type="tipoFactura" minOccurs="1" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="tipoFactura">
+        <xs:sequence>
+            <xs:element name="datos_factura" type="tipoDatosFactura" maxOccurs="unbounded" />
+        </xs:sequence>
+        <xs:attribute name="n_fac" type="xs:ID" use="required" />
+        <xs:attribute name="cli" type="xs:IDREF" use="required" />
+    </xs:complexType>
+
+    <xs:complexType name="tipoDatosFactura">
+        <xs:sequence>
+            <xs:element name="fecha" type="xs:string" minOccurs="1" />
+            <xs:element name="linea" type="tipoLinea" minOccurs="1" maxOccurs="unbounded" />
+            <xs:element name="base" type="xs:decimal" minOccurs="1" />
+            <xs:element name="cuota_iva" type="xs:decimal" minOccurs="1" />
+            <xs:element name="total" type="xs:decimal" minOccurs="1" />
+        </xs:sequence>
+        <xs:attribute name="n_ped" type="xs:ID" use="required" />
+        <xs:attribute name="iva" type="xs:positiveInteger" use="required" />
+        <xs:attribute name="f_pago" type="tipoPago" use="required" />
+        <xs:attribute name="moneda" type="xs:string" use="required" fixed="euro" />
+    </xs:complexType>
+
+    <xs:simpleType name="tipoPago">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="efectivo" />
+            <xs:enumeration value="tarjeta" />
+            <xs:enumeration value="plazos" />
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="tipoLinea">
+        <xs:sequence>
+            <xs:element name="ref" type="xs:string" />
+            <xs:element name="desc" type="xs:string" />
+            <xs:element name="cant" type="xs:positiveInteger" />
+            <xs:element name="precio" type="xs:decimal" />
+            <xs:element name="importe" type="xs:decimal" />
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
