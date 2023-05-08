@@ -4,11 +4,11 @@
     <xs:element name="empresa" type="tipoEmpresa" />
 
     <xs:complexType name="tipoEmpresa">
-        <xs:sequence>
+        <xs:all>
             <xs:element name="datos_empresa" type="tipoDatosEmpresa" />
             <xs:element name="clientes" type="tipoClientes" />
             <xs:element name="facturas" type="tipoFacturas" />
-        </xs:sequence>
+        </xs:all>
     </xs:complexType>
 
     <xs:complexType name="tipoDatosEmpresa">

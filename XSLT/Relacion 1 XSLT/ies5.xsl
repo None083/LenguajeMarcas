@@ -5,9 +5,10 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>Transformación 2</title>
+        <title>Transformación 5</title>
       </head>
       <body>
+        <h1><xsl:value-of select="ies/@nombre"/></h1>
         <xsl:apply-templates/>
       </body>
     </html>

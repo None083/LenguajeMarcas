@@ -5,16 +5,20 @@
   <xsl:template match="/">
     <html>
       <head>
-        <title>Transformación 2</title>
+        <title>Transformación 4</title>
       </head>
       <body>
-        <xsl:apply-templates/>
+        <table><xsl:apply-templates/></table>
+        <style>
+            table{border-collapse:collapse}
+            table,td{border: 1px solid black}
+        </style>
       </body>
     </html>
   </xsl:template>
 
   <xsl:template match="ciclo">
-    <p><xsl:value-of select="nombre"/></p>
+    <tr><td><xsl:value-of select="nombre"/></td></tr>
   </xsl:template>
 
 </xsl:stylesheet>
