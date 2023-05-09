@@ -5,7 +5,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>Transformación 5</title>
+                <title>Transformación 6</title>
             </head>
             <body>
                 <h1>
