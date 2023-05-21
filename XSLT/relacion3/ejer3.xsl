@@ -15,7 +15,7 @@
                     <xsl:for-each select="tienda/producto">
                          <tr>
                              <td><xsl:value-of select="articulo" /></td>
-                        4</tr>
+                        </tr>
                     </xsl:for-each>
                 </table>
             </body>

@@ -2,7 +2,7 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
     <xsl:template match="/">
-        <html>
+        <html lang="es">
             <head>
                 <title>Transformacion 7</title>
                 <meta charset="UTF-8"></meta>
@@ -11,6 +11,8 @@
                     border-collapse: collapse}
                     .verde{background-color:green}
                     .rojo{background-color:red}
+                    img{width:30px;
+                        height:auto}
                 </style>
             </head>
             <body>
